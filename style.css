@@ -50,9 +50,15 @@ main {
 .navs {
   border: 3px darkblue groove;
 }
-#Johangrund {
+#FER {
+  border: 0px darkgreen solid;
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.QaA {
+  order: -2;
+  align-self: flex-end;
 }
 .tabler {
   border: 10px whitesmoke double;
@@ -103,8 +109,13 @@ article {
   border: 50px darkseagreen solid;
 }
 .SPACE {
-  border: 25px darkseagreen solid;
+  border: 5mvax darkseagreen solid;
 }
 footer {
   text-align: end;
+}
+.TYg:hover {
+  color: darkseagreen;
+  height: 30px;
+  font-size: 20px;
 }
