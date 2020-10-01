@@ -56,6 +56,10 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+.REF {
+  display: flex;
+  flex-wrap: nowrap;
+}
 .QaA {
   order: -2;
   align-self: flex-end;
@@ -102,6 +106,12 @@ main {
   height: 20vmax;
   width: 30vmax;
 }
+.imgu2 {
+  border: 15px whitesmoke solid;
+  border-radius: 90px;
+  height: 20vmax;
+  width: 30vmax;
+}
 .TY {
   font-family: Impact, Charcoal, sans-serif;
 }
@@ -132,4 +142,8 @@ body {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+a {
+  text-decoration: none;
+  color: darkgreen;
 }
